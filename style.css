@@ -1,7 +1,7 @@
 /* ================================================
 Clean Slate Hauling - Main Stylesheet
 Author: [G/CSH]
-Version: 1.0
+Version: 1.2
 ================================================
 */
 
@@ -52,12 +52,14 @@ body {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px); /* Safari support */
     z-index: 1000;
-    padding: 20px 0;
+    /* UPDATED: Adjusted padding for larger logo */
+    padding: 15px 0;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #navbar.scrolled {
-    padding: 15px 0;
+    /* UPDATED: Adjusted padding for larger logo */
+    padding: 10px 0;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
 }
 
@@ -75,8 +77,9 @@ body {
     letter-spacing: -0.5px;
 }
 
+/* --- LOGO SIZE UPDATED HERE --- */
 .logo img {
-    height: 40px; /* Adjust this value to make your logo bigger or smaller */
+    height: 60px; /* Adjust this value to make your logo bigger or smaller */
     width: auto;
     display: block;
 }
