@@ -79,7 +79,7 @@ body {
 
 /* --- LOGO SIZE UPDATED HERE --- */
 .logo img {
-    height: 60px; /* Adjust this value to make your logo bigger or smaller */
+    height: 120px; /* Adjust this value to make your logo bigger or smaller */
     width: auto;
     display: block;
 }
