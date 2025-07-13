@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clean Slate Hauling - Professional Junk Removal</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Clean Slate Hauling - Professional Junk Removal in DFW</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <div class="container">
-                <a href="#" class="logo"><img src="images/logo.png" alt="Clean Slate Hauling Logo"></a>
+
+    <header id="navbar">
+        <nav class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Clean Slate Hauling Logo">
+            </a>
+            <div class="main-nav" id="main-nav">
                 <ul class="nav-links">
                     <li><a href="#services">Services</a></li>
                     <li><a href="#how-it-works">How It Works</a></li>
@@ -20,41 +28,47 @@
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#contact" class="cta-button">Get Free Estimate</a></li>
                 </ul>
-                <div class="hamburger">
-                    <i class="fas fa-bars fa-lg"></i>
-                </div>
             </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu" aria-controls="main-nav" aria-expanded="false">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
         </nav>
     </header>
+
+    <div class="overlay" id="overlay"></div>
 
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>The Simple Way to a Clean Slate.</h1>
-                <p class="subtitle">Professional junk removal for homes and businesses in the Dallas Metroplex. Fast, local, and reliable.</p>
-                <a href="#contact" class="hero-button">Get My Free Estimate</a>
-                <div class="trust-badge">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <h1 class="animate-on-load">The Simple Way to a Clean Slate.</h1>
+                <p class="subtitle animate-on-load">Professional junk removal for homes and businesses in the Dallas Metroplex. Fast, local, and reliable.</p>
+                <a href="#contact" class="hero-button animate-on-load">Get My Free Estimate</a>
+                <div class="trust-badge animate-on-load">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
                     <span>Locally Owned & Operated</span>
                 </div>
             </div>
         </section>
 
-        <section id="how-it-works" class="section how-it-works">
+        <section id="how-it-works" class="section">
             <div class="container">
                 <h2 class="section-title">So Simple, It's Black and White.</h2>
                 <div class="steps">
-                    <div class="step animate-on-scroll">
+                    <div class="step reveal-on-scroll">
                         <div class="step-icon"><i class="fas fa-mobile-alt"></i></div>
                         <h3>1. Get Your Quote</h3>
                         <p>Click 'Get Estimate' and send us photos of your junk. We'll reply with a free, no-obligation quote, often within the hour.</p>
                     </div>
-                    <div class="step animate-on-scroll">
+                    <div class="step reveal-on-scroll">
                         <div class="step-icon"><i class="fas fa-calendar-check"></i></div>
                         <h3>2. Schedule Pickup</h3>
                         <p>Pick a time that works for you. We offer flexible 2-hour arrival windows and will text you when we're on our way.</p>
                     </div>
-                    <div class="step animate-on-scroll">
+                    <div class="step reveal-on-scroll">
                         <div class="step-icon"><i class="fas fa-magic"></i></div>
                         <h3>3. We Haul It Away</h3>
                         <p>Our professional crew handles all lifting, loading, and disposal. You don't lift a finger. Your space is now a clean slate.</p>
@@ -63,36 +77,36 @@
             </div>
         </section>
 
-        <section id="services" class="section services">
+        <section id="services" class="section">
             <div class="container">
                 <h2 class="section-title">What We Take</h2>
                 <div class="services-grid">
-                    <div class="service-card animate-on-scroll">
+                    <div class="service-card reveal-on-scroll">
                         <div class="service-icon"><i class="fas fa-couch"></i></div>
                         <h3>Household Junk</h3>
                         <p>Furniture, Mattresses, Boxes, General Clutter</p>
                     </div>
-                    <div class="service-card animate-on-scroll">
+                    <div class="service-card reveal-on-scroll">
                         <div class="service-icon"><i class="fas fa-tv"></i></div>
                         <h3>Appliance & E-Waste</h3>
                         <p>Refrigerators, Washers/Dryers, TVs, Computers</p>
                     </div>
-                    <div class="service-card animate-on-scroll">
+                    <div class="service-card reveal-on-scroll">
                         <div class="service-icon"><i class="fas fa-tree"></i></div>
                         <h3>Yard & Construction Debris</h3>
                         <p>Branches, Fencing, Scrap Wood, Drywall, Concrete</p>
                     </div>
-                    <div class="service-card animate-on-scroll">
+                    <div class="service-card reveal-on-scroll">
                         <div class="service-icon"><i class="fas fa-briefcase"></i></div>
                         <h3>Office Cleanouts</h3>
                         <p>Desks, Chairs, Cubicles, Electronics</p>
                     </div>
-                    <div class="service-card animate-on-scroll">
+                    <div class="service-card reveal-on-scroll">
                         <div class="service-icon"><i class="fas fa-warehouse"></i></div>
                         <h3>Garage & Attic Cleanouts</h3>
                         <p>Full cleanout service to reclaim your space.</p>
                     </div>
-                    <div class="service-card animate-on-scroll">
+                    <div class="service-card reveal-on-scroll">
                         <div class="service-icon"><i class="fas fa-hammer"></i></div>
                         <h3>Light Demolition</h3>
                         <p>Shed removal, hot tub disposal, deck tear-downs.</p>
@@ -101,14 +115,13 @@
             </div>
         </section>
 
-        <section id="why-us" class="section why-us">
+        <section id="why-us" class="section">
             <div class="container">
                 <h2 class="section-title">Your Local DFW Alternative.</h2>
                 <div class="why-us-content">
-                    <div class="owner-photo-container animate-on-scroll">
-                           <div class="owner-photo"></div>
-                    </div>
-                    <div class="why-us-text animate-on-scroll">
+                    <div class="owner-photo-container reveal-on-scroll">
+                         <div class="owner-photo"></div> </div>
+                    <div class="why-us-text reveal-on-scroll">
                         <h3>We're Not a Big Franchise. We're Your Neighbors.</h3>
                         <ul class="benefits">
                             <li class="benefit">
@@ -141,28 +154,22 @@
             </div>
         </section>
 
-        <section id="reviews" class="section reviews">
+        <section id="reviews" class="section">
             <div class="container">
                 <h2 class="section-title">What Our Customers Say</h2>
                 <div class="reviews-grid">
-                    <div class="review-card animate-on-scroll">
-                        <div class="stars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
+                    <div class="review-card reveal-on-scroll">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="review-text">"Clean Slate was amazing! They showed up exactly when they said they would and removed all our old furniture in minutes. Professional, courteous, and reasonably priced. Highly recommend!"</p>
                         <div class="reviewer-name">- Sarah P. - Carrollton, TX</div>
                     </div>
-                    <div class="review-card animate-on-scroll">
-                        <div class="stars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
+                    <div class="review-card reveal-on-scroll">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="review-text">"I needed my garage cleaned out fast, and these guys delivered. They recycled what they could and hauled away the rest. My garage went from disaster to clean slate in one afternoon!"</p>
                         <div class="reviewer-name">- Mike R. - Plano, TX</div>
                     </div>
-                    <div class="review-card animate-on-scroll">
-                        <div class="stars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
+                    <div class="review-card reveal-on-scroll">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="review-text">"Local, honest, and hardworking. They gave me a fair quote and stuck to it. No surprise fees or upselling. This is how business should be done!"</p>
                         <div class="reviewer-name">- Jennifer L. - Frisco, TX</div>
                     </div>
@@ -170,7 +177,7 @@
             </div>
         </section>
 
-        <section class="section final-cta">
+        <section class="final-cta">
             <div class="container">
                 <h2>Ready for Your Clean Slate?</h2>
                 <p>Reclaim your space today. The process is simple, and the quote is free.</p>
@@ -203,8 +210,14 @@
     </footer>
 
     <script>
-        // --- Navigation Bar Scroll Effect ---
+        // --- Navigation Bar Logic ---
         const nav = document.getElementById('navbar');
+        const hamburger = document.getElementById('hamburger');
+        const mainNav = document.getElementById('main-nav');
+        const overlay = document.getElementById('overlay');
+        const navLinks = document.querySelectorAll('.nav-links li a');
+
+        // Scrolled Effect
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
                 nav.classList.add('scrolled');
@@ -212,28 +225,54 @@
                 nav.classList.remove('scrolled');
             }
         });
-        
-        // --- Mobile Navigation Toggle ---
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
 
+        // Hamburger Menu Toggle
         hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
+            const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+            hamburger.setAttribute('aria-expanded', !isExpanded);
+            mainNav.classList.toggle('active');
+            hamburger.classList.toggle('is-active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
         });
 
-        // --- Animate Elements on Scroll ---
-        const scrollElements = document.querySelectorAll(".animate-on-scroll");
+        // Close menu when overlay or a link is clicked
+        const closeMenu = () => {
+            mainNav.classList.remove('active');
+            hamburger.classList.remove('is-active');
+            overlay.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+        };
+
+        overlay.addEventListener('click', closeMenu);
+        navLinks.forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+
+        // --- Animate Elements on Scroll using Intersection Observer ---
+        const scrollElements = document.querySelectorAll(".reveal-on-scroll");
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('animated');
+                    entry.target.classList.add('visible');
+                    // Optional: Unobserve after animation to save resources
+                    // observer.unobserve(entry.target);
                 }
             });
         }, {
-            threshold: 0.15 
+            threshold: 0.15 // Trigger when 15% of the element is visible
         });
 
         scrollElements.forEach(el => observer.observe(el));
+        
+        // --- Staggered Hero Animation on Load ---
+        const heroElements = document.querySelectorAll('.animate-on-load');
+        heroElements.forEach((el, index) => {
+            el.style.setProperty('--delay', `${index * 150}ms`);
+        });
+
     </script>
 </body>
 </html>
